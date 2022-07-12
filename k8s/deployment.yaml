@@ -26,7 +26,7 @@ spec:
               value: pipelines-vote-api
             - name: VOTING_API_SERVICE_PORT
               value: "9000"
-  replicas: 5
+  replicas: 2
   strategy: 
     type: "Rolling"
   paused: false 
